@@ -1,7 +1,7 @@
 import kotlin.random.Random
 
 fun main() {
-    val palabras = listOf("kotlin", "java", "programacion", "android")
+    val palabras = listOf("tortilla", "jamon", "negro", "verde","esternocleidomastoideo")
     val palabraSecreta = palabras[Random.nextInt(palabras.size)]
     val letrasAdivinadas = mutableSetOf<Char>()
     var errores = 0
